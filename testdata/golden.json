@@ -1,0 +1,980 @@
+[
+ {
+  "inputs": [
+   "jane@gmail.com",
+   "ld299pmjvb@outlook.com",
+   "yf2j9sx4aq@yahoo.com",
+   "xk2p9q@duck.com",
+   "jane@microsoft.com",
+   "jane@spotify.com",
+   "jane@gmial.com",
+   "jane@yaho.com",
+   "someone@gmai.com",
+   "ez9x9ivz6t@mailinator.com",
+   "abc@guerrillamail.com",
+   "x@sub.mailinator.com",
+   "info@gmail.com",
+   "sales+eu@outlook.com",
+   "8runaeirzs@proofpoint.com",
+   "test@example.com",
+   "test@c0f8c4u5rk-nodomain.com",
+   "x@nullmx.bltest.invalid",
+   "x@noserver.bltest.invalid",
+   "x@aonly.bltest.invalid",
+   "x@not-in-fixtures.example-unknown.com",
+   "jane@@gmail.com",
+   "test@localhost",
+   "john.gmail.com",
+   "a b@gmail.com",
+   "a@b.c1",
+   "a..b@gmail.com",
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@gmail.com",
+   "a@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.com",
+   "",
+   "  mailto:John@Gmail.com ",
+   "<a@gmail.com>",
+   "a@gmail.com.",
+   "test@münchen.de",
+   "josé@gmail.com",
+   ".jane@gmail.com",
+   "jane.@gmail.com",
+   "jane@-gmail.com",
+   "jane@gmail-.com",
+   "jane@xn--p1ai"
+  ],
+  "results": [
+   {
+    "input": "jane@gmail.com",
+    "email": "jane@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "ld299pmjvb@outlook.com",
+    "email": "ld299pmjvb@outlook.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Microsoft",
+    "mx": "outlook-com.olc.protection.outlook.com"
+   },
+   {
+    "input": "yf2j9sx4aq@yahoo.com",
+    "email": "yf2j9sx4aq@yahoo.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Yahoo",
+    "mx": "mta5.am0.yahoodns.net"
+   },
+   {
+    "input": "xk2p9q@duck.com",
+    "email": "xk2p9q@duck.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "DuckDuckGo relay",
+    "mx": "smtp-inbound1.duck.com"
+   },
+   {
+    "input": "jane@microsoft.com",
+    "email": "jane@microsoft.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Microsoft",
+    "mx": "microsoft-com.mail.protection.outlook.com"
+   },
+   {
+    "input": "jane@spotify.com",
+    "email": "jane@spotify.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "aspmx.l.google.com"
+   },
+   {
+    "input": "jane@gmial.com",
+    "email": "jane@gmial.com",
+    "status": "risky",
+    "reasons": [
+     "No MX record; mail would go to the website server",
+     "Disposable (throwaway) email domain",
+     "Looks like a typo of gmail.com"
+    ],
+    "flags": {
+     "disposable": true,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": "jane@gmail.com",
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "jane@yaho.com",
+    "email": "jane@yaho.com",
+    "status": "risky",
+    "reasons": [
+     "No MX record; mail would go to the website server",
+     "Looks like a typo of yahoo.com"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": "jane@yahoo.com",
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "someone@gmai.com",
+    "email": "someone@gmai.com",
+    "status": "risky",
+    "reasons": [
+     "Looks like a typo of gmail.com"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": "someone@gmail.com",
+    "provider": null,
+    "mx": "mail.h-email.net"
+   },
+   {
+    "input": "ez9x9ivz6t@mailinator.com",
+    "email": "ez9x9ivz6t@mailinator.com",
+    "status": "risky",
+    "reasons": [
+     "Disposable (throwaway) email domain"
+    ],
+    "flags": {
+     "disposable": true,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": "mail.mailinator.com"
+   },
+   {
+    "input": "abc@guerrillamail.com",
+    "email": "abc@guerrillamail.com",
+    "status": "risky",
+    "reasons": [
+     "Disposable (throwaway) email domain"
+    ],
+    "flags": {
+     "disposable": true,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": "mail.guerrillamail.com"
+   },
+   {
+    "input": "x@sub.mailinator.com",
+    "email": "x@sub.mailinator.com",
+    "status": "risky",
+    "reasons": [
+     "Could not look up domain: DNS lookup failed (599)",
+     "Disposable (throwaway) email domain"
+    ],
+    "flags": {
+     "disposable": true,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "info@gmail.com",
+    "email": "info@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed",
+     "Role address (shared inbox, lower reply rate)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": true,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "sales+eu@outlook.com",
+    "email": "sales+eu@outlook.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed",
+     "Role address (shared inbox, lower reply rate)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": true,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Microsoft",
+    "mx": "outlook-com.olc.protection.outlook.com"
+   },
+   {
+    "input": "8runaeirzs@proofpoint.com",
+    "email": "8runaeirzs@proofpoint.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": true
+    },
+    "did_you_mean": null,
+    "provider": "Proofpoint",
+    "mx": "mxa-00148501.gslb.pphosted.com"
+   },
+   {
+    "input": "test@example.com",
+    "email": "test@example.com",
+    "status": "invalid",
+    "reasons": [
+     "Domain says it accepts no email (null MX)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": true,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "test@c0f8c4u5rk-nodomain.com",
+    "email": "test@c0f8c4u5rk-nodomain.com",
+    "status": "invalid",
+    "reasons": [
+     "Domain does not exist"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": true,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "x@nullmx.bltest.invalid",
+    "email": "x@nullmx.bltest.invalid",
+    "status": "invalid",
+    "reasons": [
+     "Domain says it accepts no email (null MX)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "x@noserver.bltest.invalid",
+    "email": "x@noserver.bltest.invalid",
+    "status": "invalid",
+    "reasons": [
+     "Domain has no mail server"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "x@aonly.bltest.invalid",
+    "email": "x@aonly.bltest.invalid",
+    "status": "risky",
+    "reasons": [
+     "No MX record; mail would go to the website server"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "x@not-in-fixtures.example-unknown.com",
+    "email": "x@not-in-fixtures.example-unknown.com",
+    "status": "risky",
+    "reasons": [
+     "Could not look up domain: DNS lookup failed (599)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "jane@@gmail.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "More than one @"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "test@localhost",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Domain has no extension (e.g. .com)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "john.gmail.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Missing @ or missing part"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "a b@gmail.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Contains spaces"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "a@b.c1",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Domain extension is not valid"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "a..b@gmail.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Part before @ has characters or dots that are not allowed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@gmail.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Part before @ is longer than 64 characters"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "a@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Longer than 254 characters"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Empty"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "John@Gmail.com",
+    "email": "john@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "a@gmail.com",
+    "email": "a@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "a@gmail.com.",
+    "email": "a@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed",
+     "Duplicate of a@gmail.com"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": true,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "test@münchen.de",
+    "email": "test@xn--mnchen-3ya.de",
+    "status": "risky",
+    "reasons": [
+     "No MX record; mail would go to the website server",
+     "Role address (shared inbox, lower reply rate)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": true,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "josé@gmail.com",
+    "email": "josé@gmail.com",
+    "status": "risky",
+    "reasons": [
+     "Non-English characters before @; many servers reject these"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": ".jane@gmail.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Part before @ has characters or dots that are not allowed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "jane.@gmail.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Part before @ has characters or dots that are not allowed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "jane@-gmail.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Domain is not a valid name"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "jane@gmail-.com",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Domain is not a valid name"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "jane@xn--p1ai",
+    "email": null,
+    "status": "invalid",
+    "reasons": [
+     "Domain has no extension (e.g. .com)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": false,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   }
+  ],
+  "summary": {
+   "total": 40,
+   "invalid": 18,
+   "risky": 10,
+   "unconfirmed": 11,
+   "duplicates": 1,
+   "disposable": 4,
+   "role": 5,
+   "free": 9,
+   "typos": 3
+  }
+ },
+ {
+  "inputs": [
+   "jane.doe@gmail.com",
+   "Jane.Doe@Gmail.com",
+   "janedoe@gmail.com",
+   "janedoe+news@gmail.com",
+   "janedoe@googlemail.com",
+   "jane+a@outlook.com",
+   "jane@outlook.com",
+   "j.ane@outlook.com",
+   "other@gmail.com"
+  ],
+  "results": [
+   {
+    "input": "jane.doe@gmail.com",
+    "email": "jane.doe@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "Jane.Doe@Gmail.com",
+    "email": "jane.doe@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed",
+     "Duplicate of jane.doe@gmail.com"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": true,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "janedoe@gmail.com",
+    "email": "janedoe@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed",
+     "Same inbox as jane.doe@gmail.com (dots/+tag ignored)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": true,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "janedoe+news@gmail.com",
+    "email": "janedoe+news@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed",
+     "Same inbox as jane.doe@gmail.com (dots/+tag ignored)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": true,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   },
+   {
+    "input": "janedoe@googlemail.com",
+    "email": "janedoe@googlemail.com",
+    "status": "risky",
+    "reasons": [
+     "Could not look up domain: DNS lookup failed (599)",
+     "Same inbox as jane.doe@gmail.com (dots/+tag ignored)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": true,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": null,
+    "mx": null
+   },
+   {
+    "input": "jane+a@outlook.com",
+    "email": "jane+a@outlook.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Microsoft",
+    "mx": "outlook-com.olc.protection.outlook.com"
+   },
+   {
+    "input": "jane@outlook.com",
+    "email": "jane@outlook.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed",
+     "Same inbox as jane+a@outlook.com (dots/+tag ignored)"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": true,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Microsoft",
+    "mx": "outlook-com.olc.protection.outlook.com"
+   },
+   {
+    "input": "j.ane@outlook.com",
+    "email": "j.ane@outlook.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Microsoft",
+    "mx": "outlook-com.olc.protection.outlook.com"
+   },
+   {
+    "input": "other@gmail.com",
+    "email": "other@gmail.com",
+    "status": "unconfirmed",
+    "reasons": [
+     "Format and domain OK, mailbox not confirmed"
+    ],
+    "flags": {
+     "disposable": false,
+     "role": false,
+     "free": true,
+     "duplicate": false,
+     "gateway": false
+    },
+    "did_you_mean": null,
+    "provider": "Google",
+    "mx": "gmail-smtp-in.l.google.com"
+   }
+  ],
+  "summary": {
+   "total": 9,
+   "invalid": 0,
+   "risky": 1,
+   "unconfirmed": 4,
+   "duplicates": 4,
+   "disposable": 0,
+   "role": 0,
+   "free": 9,
+   "typos": 0
+  }
+ }
+]

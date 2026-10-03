@@ -1,0 +1,906 @@
+{
+ "https://cloudflare-dns.com/dns-query?name=aonly.bltest.invalid&type=A": {
+  "Status": 0,
+  "Answer": [
+   {
+    "type": 1,
+    "data": "192.0.2.1"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=aonly.bltest.invalid&type=MX": {
+  "Status": 0
+ },
+ "https://cloudflare-dns.com/dns-query?name=c0f8c4u5rk-nodomain.com&type=A": {
+  "Status": 3,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "c0f8c4u5rk-nodomain.com",
+    "type": 1
+   }
+  ],
+  "Authority": [
+   {
+    "name": "com",
+    "type": 6,
+    "TTL": 900,
+    "data": "a.gtld-servers.net. nstld.verisign-grs.com. 1790247749 1800 900 604800 900"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=c0f8c4u5rk-nodomain.com&type=MX": {
+  "Status": 3,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "c0f8c4u5rk-nodomain.com",
+    "type": 15
+   }
+  ],
+  "Authority": [
+   {
+    "name": "com",
+    "type": 6,
+    "TTL": 759,
+    "data": "a.gtld-servers.net. nstld.verisign-grs.com. 1790247599 1800 900 604800 900"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=duck.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "duck.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "duck.com",
+    "type": 1,
+    "TTL": 33,
+    "data": "20.43.161.105"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=duck.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "duck.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "duck.com",
+    "type": 15,
+    "TTL": 600,
+    "data": "5 smtp-inbound1.duck.com."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=example.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+   {
+    "name": "example.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "example.com",
+    "type": 1,
+    "TTL": 248,
+    "data": "104.20.23.154"
+   },
+   {
+    "name": "example.com",
+    "type": 1,
+    "TTL": 248,
+    "data": "172.66.147.243"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=example.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+   {
+    "name": "example.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "example.com",
+    "type": 15,
+    "TTL": 174,
+    "data": "0 ."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=gmai.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "gmai.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "gmai.com",
+    "type": 1,
+    "TTL": 300,
+    "data": "78.41.207.22"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=gmai.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "gmai.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "gmai.com",
+    "type": 15,
+    "TTL": 45,
+    "data": "1 mail.h-email.net."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=gmail.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "gmail.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "gmail.com",
+    "type": 1,
+    "TTL": 140,
+    "data": "142.251.126.17"
+   },
+   {
+    "name": "gmail.com",
+    "type": 1,
+    "TTL": 140,
+    "data": "142.251.126.83"
+   },
+   {
+    "name": "gmail.com",
+    "type": 1,
+    "TTL": 140,
+    "data": "142.251.126.18"
+   },
+   {
+    "name": "gmail.com",
+    "type": 1,
+    "TTL": 140,
+    "data": "142.251.126.19"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=gmail.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "gmail.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "gmail.com",
+    "type": 15,
+    "TTL": 3482,
+    "data": "5 gmail-smtp-in.l.google.com."
+   },
+   {
+    "name": "gmail.com",
+    "type": 15,
+    "TTL": 3482,
+    "data": "40 alt4.gmail-smtp-in.l.google.com."
+   },
+   {
+    "name": "gmail.com",
+    "type": 15,
+    "TTL": 3482,
+    "data": "10 alt1.gmail-smtp-in.l.google.com."
+   },
+   {
+    "name": "gmail.com",
+    "type": 15,
+    "TTL": 3482,
+    "data": "20 alt2.gmail-smtp-in.l.google.com."
+   },
+   {
+    "name": "gmail.com",
+    "type": 15,
+    "TTL": 3482,
+    "data": "30 alt3.gmail-smtp-in.l.google.com."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=gmial.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "gmial.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "gmial.com",
+    "type": 1,
+    "TTL": 0,
+    "data": "51.79.68.169"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=gmial.com&type=MX": {
+  "Status": 2,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "gmial.com",
+    "type": 15
+   }
+  ],
+  "Comment": [
+   "EDE(22): No Reachable Authority at delegation gmial.com."
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=guerrillamail.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "guerrillamail.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "guerrillamail.com",
+    "type": 1,
+    "TTL": 300,
+    "data": "178.162.170.166"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=guerrillamail.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "guerrillamail.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "guerrillamail.com",
+    "type": 15,
+    "TTL": 300,
+    "data": "0 mail.guerrillamail.com."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=mailinator.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+   {
+    "name": "mailinator.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "mailinator.com",
+    "type": 1,
+    "TTL": 300,
+    "data": "104.20.46.162"
+   },
+   {
+    "name": "mailinator.com",
+    "type": 1,
+    "TTL": 300,
+    "data": "172.66.146.138"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=mailinator.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+   {
+    "name": "mailinator.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "mailinator.com",
+    "type": 15,
+    "TTL": 300,
+    "data": "1 mail.mailinator.com."
+   },
+   {
+    "name": "mailinator.com",
+    "type": 15,
+    "TTL": 300,
+    "data": "1 mail2.mailinator.com."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=microsoft.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "microsoft.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "microsoft.com",
+    "type": 1,
+    "TTL": 607,
+    "data": "13.107.246.68"
+   },
+   {
+    "name": "microsoft.com",
+    "type": 1,
+    "TTL": 607,
+    "data": "13.107.213.68"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=microsoft.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "microsoft.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "microsoft.com",
+    "type": 15,
+    "TTL": 1406,
+    "data": "10 microsoft-com.mail.protection.outlook.com."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=noserver.bltest.invalid&type=A": {
+  "Status": 0
+ },
+ "https://cloudflare-dns.com/dns-query?name=noserver.bltest.invalid&type=MX": {
+  "Status": 0
+ },
+ "https://cloudflare-dns.com/dns-query?name=nullmx.bltest.invalid&type=MX": {
+  "Status": 0,
+  "Answer": [
+   {
+    "type": 15,
+    "data": "0 ."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=outlook.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+   {
+    "name": "outlook.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.214.50"
+   },
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.222.194"
+   },
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.222.226"
+   },
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.223.2"
+   },
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.228.130"
+   },
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.229.242"
+   },
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.91.34"
+   },
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.111.82"
+   },
+   {
+    "name": "outlook.com",
+    "type": 1,
+    "TTL": 102,
+    "data": "52.96.172.98"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=outlook.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+   {
+    "name": "outlook.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "outlook.com",
+    "type": 15,
+    "TTL": 34,
+    "data": "5 outlook-com.olc.protection.outlook.com."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=proofpoint.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "proofpoint.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "proofpoint.com",
+    "type": 1,
+    "TTL": 180,
+    "data": "45.60.171.207"
+   },
+   {
+    "name": "proofpoint.com",
+    "type": 1,
+    "TTL": 180,
+    "data": "45.60.151.207"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=proofpoint.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "proofpoint.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "proofpoint.com",
+    "type": 15,
+    "TTL": 1800,
+    "data": "10 mxa-00148501.gslb.pphosted.com."
+   },
+   {
+    "name": "proofpoint.com",
+    "type": 15,
+    "TTL": 1800,
+    "data": "10 mxb-00148501.gslb.pphosted.com."
+   },
+   {
+    "name": "proofpoint.com",
+    "type": 15,
+    "TTL": 1800,
+    "data": "15 mx0a-00148501.pphosted.com."
+   },
+   {
+    "name": "proofpoint.com",
+    "type": 15,
+    "TTL": 1800,
+    "data": "15 mx0b-00148501.pphosted.com."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=spotify.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "spotify.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "spotify.com",
+    "type": 1,
+    "TTL": 201,
+    "data": "35.186.224.24"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=spotify.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "spotify.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "spotify.com",
+    "type": 15,
+    "TTL": 172800,
+    "data": "5 alt2.aspmx.l.google.com."
+   },
+   {
+    "name": "spotify.com",
+    "type": 15,
+    "TTL": 172800,
+    "data": "10 aspmx5.googlemail.com."
+   },
+   {
+    "name": "spotify.com",
+    "type": 15,
+    "TTL": 172800,
+    "data": "5 alt1.aspmx.l.google.com."
+   },
+   {
+    "name": "spotify.com",
+    "type": 15,
+    "TTL": 172800,
+    "data": "10 aspmx3.googlemail.com."
+   },
+   {
+    "name": "spotify.com",
+    "type": 15,
+    "TTL": 172800,
+    "data": "10 aspmx4.googlemail.com."
+   },
+   {
+    "name": "spotify.com",
+    "type": 15,
+    "TTL": 172800,
+    "data": "10 aspmx2.googlemail.com."
+   },
+   {
+    "name": "spotify.com",
+    "type": 15,
+    "TTL": 172800,
+    "data": "1 aspmx.l.google.com."
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=xn--mnchen-3ya.de&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "xn--mnchen-3ya.de",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "xn--mnchen-3ya.de",
+    "type": 1,
+    "TTL": 86400,
+    "data": "194.246.166.100"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=xn--mnchen-3ya.de&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "xn--mnchen-3ya.de",
+    "type": 15
+   }
+  ],
+  "Authority": [
+   {
+    "name": "xn--mnchen-3ya.de",
+    "type": 6,
+    "TTL": 86400,
+    "data": "ns01e.muenchen.de. lhm-zone-c.muenchen.de. 2020063025 10800 1800 604800 86400"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=yaho.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "yaho.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "yaho.com",
+    "type": 1,
+    "TTL": 7200,
+    "data": "76.223.84.192"
+   },
+   {
+    "name": "yaho.com",
+    "type": 1,
+    "TTL": 7200,
+    "data": "13.248.158.7"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=yaho.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "yaho.com",
+    "type": 15
+   }
+  ],
+  "Authority": [
+   {
+    "name": "yaho.com",
+    "type": 6,
+    "TTL": 600,
+    "data": "hidden-master.yahoo.com. hostmaster.yahoo-inc.com. 2024032701 28800 3600 1814400 600"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=yahoo.com&type=A": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "yahoo.com",
+    "type": 1
+   }
+  ],
+  "Answer": [
+   {
+    "name": "yahoo.com",
+    "type": 1,
+    "TTL": 162,
+    "data": "98.137.11.163"
+   },
+   {
+    "name": "yahoo.com",
+    "type": 1,
+    "TTL": 162,
+    "data": "74.6.231.21"
+   },
+   {
+    "name": "yahoo.com",
+    "type": 1,
+    "TTL": 162,
+    "data": "74.6.143.26"
+   },
+   {
+    "name": "yahoo.com",
+    "type": 1,
+    "TTL": 162,
+    "data": "98.137.11.164"
+   },
+   {
+    "name": "yahoo.com",
+    "type": 1,
+    "TTL": 162,
+    "data": "74.6.143.25"
+   },
+   {
+    "name": "yahoo.com",
+    "type": 1,
+    "TTL": 162,
+    "data": "74.6.231.20"
+   }
+  ]
+ },
+ "https://cloudflare-dns.com/dns-query?name=yahoo.com&type=MX": {
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+   {
+    "name": "yahoo.com",
+    "type": 15
+   }
+  ],
+  "Answer": [
+   {
+    "name": "yahoo.com",
+    "type": 15,
+    "TTL": 1549,
+    "data": "1 mta5.am0.yahoodns.net."
+   },
+   {
+    "name": "yahoo.com",
+    "type": 15,
+    "TTL": 1549,
+    "data": "1 mta6.am0.yahoodns.net."
+   },
+   {
+    "name": "yahoo.com",
+    "type": 15,
+    "TTL": 1549,
+    "data": "1 mta7.am0.yahoodns.net."
+   }
+  ]
+ }
+}
