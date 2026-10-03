@@ -57,6 +57,24 @@ emailcheck.CheckWith(ctx, emails, emailcheck.Options{
 
 Each unique domain is looked up once per call. Only the **domain** is sent to Cloudflare's DNS-over-HTTPS resolver (1.1.1.1); addresses never leave your machine.
 
+## Self-hosted API (Docker)
+
+`cmd/emailcheck-api` is a small HTTP API around the library, with the same request and response format as the [BounceLens](https://bouncelens.com/) API. The image is built from `scratch` (a few MB, runs as non-root).
+
+```sh
+docker run -p 8080:8080 bouncelens/email-check-api
+curl 'localhost:8080/api/check?email=jane@gmial.com'
+curl -X POST localhost:8080/api/check -d '{"emails":["jane@gmail.com","temp@mailinator.com"]}'
+```
+
+| Endpoint | |
+|----------|--|
+| `GET /api/check?email=…` | one address |
+| `POST /api/check` `{"emails": [...]}` | up to 500 addresses (`MAX_EMAILS`) → `summary` + `results` |
+| `GET /healthz` | health check |
+
+Environment: `PORT` (default 8080), `MAX_EMAILS` (default 500). Without Docker: `go run ./cmd/emailcheck-api`.
+
 ## Tests
 
 ```sh
